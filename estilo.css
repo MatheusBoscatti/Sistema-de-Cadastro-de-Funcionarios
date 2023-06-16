@@ -20,6 +20,10 @@ label {
     font-size: 18px;
 }
 
+input{
+   border-radius: 5px;
+}
+
 legend {
     border: 1px solid dodgerblue;
     background-color: dodgerblue;
