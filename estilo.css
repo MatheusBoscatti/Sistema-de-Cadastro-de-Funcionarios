@@ -4,6 +4,7 @@ body {
     /*background-color: rgba(162, 197, 197, 0.867);*/
 }
 
+/*todas os css das divs existentes*/
 div {
     color: rgb(0, 0, 0);
     position: absolute;
@@ -16,14 +17,24 @@ div {
     width: 28%;
 }
 
+/*label*/
 label {
     font-size: 18px;
 }
 
-input{
-   border-radius: 5px;
+/*input somente do formulario.php class='input'*/
+.input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
+
+/*legend inicio.html*/
 legend {
     border: 1px solid dodgerblue;
     background-color: dodgerblue;
@@ -33,6 +44,22 @@ legend {
     border-radius: 5px;
 }
 
+/*fieldset inicio.html e formulario.php*/
 fieldset {
     border: 3px solid dodgerblue;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

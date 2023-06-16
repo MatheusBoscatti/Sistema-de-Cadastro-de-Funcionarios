@@ -13,7 +13,7 @@ echo "<div>";
 
 echo "<fieldset>";
 
-echo "<label>Nome</label><input type='text' name='Nome' required>";
+echo "<label>Nome</label><input class='input' type='text' name='Nome' required>";
 
 echo "<br>";
 echo "<br>";
@@ -23,7 +23,7 @@ echo "<label>Data Nascimento</label><input type='date' name='DataNascimento' req
 echo "<br>";
 echo "<br>";
 
-echo "<label>Email</label><input type='email' name='Email' required>";
+echo "<label>Email</label><input class='input' type='email' name='Email' required>";
 
 echo "<br>";
 
@@ -42,49 +42,43 @@ echo "<br>";
 
 if ($Pessoa == "FuncionarioAdmin") {
 
-    echo "<label>Setor</label><input type='text' name='Setor' required>";
+    echo "<label>Setor</label><input class='input' type='text' name='Setor' required>";
 
     echo "<br>";
     echo "<br>";
 
-    echo "<button type='hidden' name='Pessoa' value='FuncionarioAdmin'>Enviar</button>";
-
-    //echo "<input type='hidden' name='Pessoa' value='FuncionarioAdmin'>";
+    echo "<input type='hidden' name='Pessoa' value='FuncionarioAdmin'>";
 };
 if ($Pessoa == "FuncionarioDocente") {
-    echo "<label>Curso</label><input type='text' name='Curso' required>";
+    echo "<label>Curso</label><input class='input' type='text' name='Curso' required>";
 
     echo "<br>";
     echo "<br>";
 
-    echo "<label>Disciplina</label><input type='text' name='Disciplina' required>";
+    echo "<label>Disciplina</label><input class='input' type='text' name='Disciplina' required>";
 
     echo "<br>";
     echo "<br>";
 
-    echo "<button type='hidden' name='Pessoa' value='FuncionarioDocente'>Enviar</button>";
-
-    //echo "<input type='hidden' name='Pessoa' value='FuncionarioDocente'>";
+    echo "<input type='hidden' name='Pessoa' value='FuncionarioDocente'>";
 };
 if ($Pessoa == "Discente") {
 
-    echo "<label>Curso</label><input type='text' name='Curso' required>";
+    echo "<label>Curso</label><input class='input' type='text' name='Curso' required>";
 
     echo "<br>";
     echo "<br>";
 
-    echo "<label>Disciplina</label><input type='text' name='Disciplina' required>";
+    echo "<label>Disciplina</label><input class='input' type='text' name='Disciplina' required>";
 
     echo "<br>";
     echo "<br>";
 
-    echo "<button type='hidden' name='Pessoa' value='Discente'>Enviar</button>";
-
-    //echo "<input type='hidden' name='Pessoa' value='Discente'>";
+    echo "<input type='hidden' name='Pessoa' value='Discente'>";
 };
 
 
-//echo "<input type='submit' value='cadastrar'>";
+echo "<input type='submit' value='cadastrar'>";
 
 echo "</fieldset>";
 
