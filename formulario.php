@@ -47,10 +47,11 @@ if ($Pessoa == "FuncionarioAdmin") {
     echo "<br>";
     echo "<br>";
 
-    echo "<input type='hidden' name='Pessoa' value='FuncionarioAdmin'>";
+    echo "<button type='hidden' name='Pessoa' value='FuncionarioAdmin'>Enviar</button>";
+
+    //echo "<input type='hidden' name='Pessoa' value='FuncionarioAdmin'>";
 };
 if ($Pessoa == "FuncionarioDocente") {
-
     echo "<label>Curso</label><input type='text' name='Curso' required>";
 
     echo "<br>";
@@ -61,7 +62,9 @@ if ($Pessoa == "FuncionarioDocente") {
     echo "<br>";
     echo "<br>";
 
-    echo "<input type='hidden' name='Pessoa' value='FuncionarioDocente'>";
+    echo "<button type='hidden' name='Pessoa' value='FuncionarioDocente'>Enviar</button>";
+
+    //echo "<input type='hidden' name='Pessoa' value='FuncionarioDocente'>";
 };
 if ($Pessoa == "Discente") {
 
@@ -75,11 +78,13 @@ if ($Pessoa == "Discente") {
     echo "<br>";
     echo "<br>";
 
-    echo "<input type='hidden' name='Pessoa' value='Discente'>";
+    echo "<button type='hidden' name='Pessoa' value='Discente'>Enviar</button>";
+
+    //echo "<input type='hidden' name='Pessoa' value='Discente'>";
 };
 
 
-echo "<input type='submit' value='cadastrar'>";
+//echo "<input type='submit' value='cadastrar'>";
 
 echo "</fieldset>";
 
