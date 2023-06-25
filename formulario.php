@@ -74,6 +74,11 @@ if ($Pessoa == "Discente") {
     echo "<br>";
     echo "<br>";
 
+    echo "<label>Matricula</label><input class='input' type='text' name='Matricula' required>";
+
+    echo "<br>";
+    echo "<br>";
+
     echo "<input type='hidden' name='Pessoa' value='Discente'>";
 };
 

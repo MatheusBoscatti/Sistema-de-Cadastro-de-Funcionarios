@@ -10,7 +10,7 @@ class Discente extends Pessoa
   public $Matricula;
   
 
-
+/*function para inicializar propriedades da classe "Pessoa"*/
   function __construct($Nome, $DataNascimento, $Email, $Sexo, $Setor, $Curso, $Disciplina, $Matricula)
   {
 
@@ -22,7 +22,7 @@ class Discente extends Pessoa
   }
 
 
-
+/*Exibir informações da Classe discente e Pessoa*/
   function VerPessoa()
   {
     parent::VerPessoa();
