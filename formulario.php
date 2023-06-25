@@ -40,6 +40,12 @@ echo "<label>Feminino</label>";
 echo "<br>";
 echo "<br>";
 
+echo "<input type='radio' name='Sexo' value='Outro' required>";
+echo "<label>Outro</label>";
+
+echo "<br>";
+echo "<br>";
+
 if ($Pessoa == "FuncionarioAdmin") {
 
     echo "<label>Setor</label><input class='input' type='text' name='Setor' required>";
