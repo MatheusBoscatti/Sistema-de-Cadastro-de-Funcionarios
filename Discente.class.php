@@ -26,8 +26,10 @@ class Discente extends Pessoa
   {
     parent::VerPessoa();
 
+   echo "<fieldset>";
     echo "<b>Curso</b>: {$this->Curso}<br />";
     echo "<b>Notas</b>: {$this->Notas}<br />";
     echo "<b>Faltas</b>: {$this->Faltas}<br />";
+   echo "</fieldset>"; 
   }
 }

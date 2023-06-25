@@ -22,7 +22,9 @@ class FuncionarioDocente extends Pessoa
   {
     parent::VerPessoa();
 
+    echo "<fieldset>";
     echo "<b>Curso</b>: {$this->Curso}<br />";
     echo "<b>Disciplina</b>: {$this->Disciplina}<br />";
+    echo "</fieldset>";
   }
 }

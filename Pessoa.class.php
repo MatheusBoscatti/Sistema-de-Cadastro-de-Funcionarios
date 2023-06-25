@@ -39,14 +39,14 @@ class Pessoa
   function VerPessoa()
   {
 
-    echo "<div>";
+    echo "<fieldset>";
 
     echo "<b>Nome: </b>{$this->Nome}<br />";
     echo "<b>DataNascimento</b>: {$this->DataNascimento}<br />";
     echo "<b>Email</b>: {$this->Email}<br />";
     echo "<b>Sexo</b>: {$this->Sexo}<br />";
 
-    echo "</div>";
+    echo "</fieldset>";
   }
 }
 ?>

@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.php">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+</html>
+
 <?php
 require_once("Pessoa.class.php");
 
@@ -16,12 +29,13 @@ class FuncionarioAdmin extends Pessoa
   }
 
 
-
-
   function VerPessoa()
   {
     parent::VerPessoa();
 
+   echo "<fieldset>";
     echo "<b>Setor</b>: {$this->Setor}<br />";
+echo "</fieldset>";
+
   }
 }
