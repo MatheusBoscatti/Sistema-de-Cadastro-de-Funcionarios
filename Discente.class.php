@@ -1,23 +1,24 @@
 <?php
 require_once("Pessoa.class.php");
 
+/*Discente herda pessoa*/
 class Discente extends Pessoa
 {
 
-
+  /*Propriedades da classe Discente*/
   public $Curso;
-  public $Notas;
-  public $Faltas;
+  public $Matricula;
+  
 
 
-  function __construct($Nome, $DataNascimento, $Email, $Sexo, $Setor, $Curso, $Disciplina, $Notas, $Faltas)
+  function __construct($Nome, $DataNascimento, $Email, $Sexo, $Setor, $Curso, $Disciplina, $Matricula)
   {
 
-    parent::__construct($Nome, $DataNascimento, $Email, $Sexo, $Setor, $Curso, $Disciplina, $Curso, $Notas, $Faltas);
+    parent::__construct($Nome, $DataNascimento, $Email, $Sexo, $Setor, $Curso, $Disciplina, $Curso, $Matricula);
 
     $this->Curso = $Curso;
-    $this->Notas = $Notas;
-    $this->Faltas = $Faltas;
+    $this->Matricula = $Matricula;
+   
   }
 
 
@@ -28,8 +29,7 @@ class Discente extends Pessoa
 
    echo "<fieldset>";
     echo "<b>Curso</b>: {$this->Curso}<br />";
-    echo "<b>Notas</b>: {$this->Notas}<br />";
-    echo "<b>Faltas</b>: {$this->Faltas}<br />";
+    echo "<b>Matricula</b>: {$this->Matricula}<br />";
    echo "</fieldset>"; 
   }
 }
